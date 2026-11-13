@@ -39,43 +39,42 @@ body {
 }
 
 /* =========================================
-   LOGOTIPO & MONOGRAMA LN BARBERÍA
+   ESTILOS DE LOGOTIPO REAL (IMAGEN)
 ========================================= */
 .logo-brand {
     display: inline-flex;
     align-items: center;
-    gap: 12px;
     text-decoration: none;
-    color: var(--text-main);
 }
 
-.ln-monogram {
-    width: 44px;
-    height: 44px;
-    flex-shrink: 0;
+.logo-img {
+    height: 42px;
+    width: auto;
+    display: block;
+    object-fit: contain;
 }
 
-.logo-text {
-    display: flex;
-    flex-direction: column;
-    line-height: 1;
+.hero-logo-container {
+    margin-bottom: 24px;
+    display: inline-block;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
 }
 
-.brand-main {
-    font-family: var(--font-heading);
-    font-size: 1.45rem;
-    font-weight: 800;
-    letter-spacing: 4px;
-    color: var(--text-main);
+.hero-logo-img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    object-fit: contain;
 }
 
-.brand-sub {
-    font-family: var(--font-heading);
-    font-size: 0.68rem;
-    font-weight: 600;
-    letter-spacing: 4.5px;
-    color: var(--gold);
-    margin-top: 3px;
+.footer-logo-img {
+    max-width: 130px;
+    height: auto;
+    display: block;
+    object-fit: contain;
 }
 
 /* =========================================
@@ -160,7 +159,7 @@ body {
     justify-content: center;
     text-align: center;
     padding: 120px 20px 80px;
-    background: url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    background: url(corte2.jpeg) center/cover no-repeat;
 }
 
 .hero-overlay {
@@ -173,29 +172,6 @@ body {
     position: relative;
     z-index: 2;
     max-width: 850px;
-}
-
-.hero-emblem {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 24px;
-}
-
-.hero-monogram {
-    width: 96px;
-    height: 96px;
-    color: var(--text-main);
-    filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.8));
-}
-
-.emblem-title {
-    font-family: var(--font-heading);
-    font-size: 1.15rem;
-    font-weight: 600;
-    letter-spacing: 8px;
-    color: var(--text-main);
-    margin-top: 6px;
 }
 
 .subtitle {
